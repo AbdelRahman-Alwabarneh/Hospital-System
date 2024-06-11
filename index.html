@@ -81,26 +81,29 @@
         <input type="password" name="Passward" id="Passward" /><br /><br />
         <label for="Date_of_birth">Date of birth :</label><br />
         <input
-          type="text"
-          name="Date-of-birth"
+          type="date"
+          name="Date_of_birth"
           id="Date_of_birth"
         /><br /><br />
         <label for="gender">Gender :</label><br />
         <input type="text" name="gender" id="gender" /><br /><br />
         <label for="phone_number">Phone Number :</label><br />
-        <input type="tel" name="phone-number" id="phone_number" /><br /><br />
+        <input type="tel" name="phone_number" id="phone_number" /><br /><br />
 
-        <label for="cars">Chronic diseases</label>
+        <label for="Chronic_diseases">Chronic diseases</label>
 
-        <select name="Chronic_diseases" id="cars">
-          <option value="volvo">Heart Disease</option>
-          <option value="saab">Hypertension</option>
-          <option value="mercedes">Asthma</option>
-          <option value="audi">Cancer</option>
-          <option value="audi">No</option>
+        <select name="chronic_diseases" id="Chronic_diseases">
+          <option value="Heart Disease">Heart Disease</option>
+          <option value="Hypertension">Hypertension</option>
+          <option value="Asthma">Asthma</option>
+          <option value="Cancer">Cancer</option>
+          <option value="No">No</option>
         </select>
+        <br /><br /><br />
+        <input type="submit" id="submit" />
       </form>
     </div>
+    <div id="card"></div>
     <!-- End Form -->
     <script src="js/app.js"></script>
     <script

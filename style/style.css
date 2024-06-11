@@ -46,4 +46,34 @@ body {
 .div_form input {
   width: 400px;
   height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.div_form select {
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+#card img {
+  width: 50px;
+  height: 50px;
+}
+.All-Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: green;
+  border-radius: 5px;
+  width: 250px;
+  height: auto;
 }
