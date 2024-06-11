@@ -1,0 +1,49 @@
+:root {
+  --gradient-color: linear-gradient(90deg, #1e38a3, #021048);
+  --black: black;
+  --white: #ddebfe;
+  --blue-1: #1e38a3;
+}
+body {
+  background-color: #eef3fa;
+}
+.navbar {
+  padding-left: 95px;
+  background-color: var(--white);
+  border-bottom: 2px solid gray;
+}
+
+.navbar-brand img {
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+}
+
+.nav-link {
+  margin-left: 30px;
+  color: var(--black);
+}
+
+.drop-down a {
+  font-weight: bold;
+  color: var(--black);
+}
+
+.nav-link:hover,
+.dropdown-menu a:hover {
+  color: var(--blue-1);
+}
+
+.div_form {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+.div_form label {
+  font-size: 17px;
+  font-weight: bold;
+}
+.div_form input {
+  width: 400px;
+  height: 40px;
+}
