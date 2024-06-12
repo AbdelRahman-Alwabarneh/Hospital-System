@@ -35,8 +35,8 @@ function form(Hospital_System) {
   let gender_js = Main_form_js.gender.value;
   let phone_number_js = Main_form_js.phone_number.value;
   let chronic_diseases_js = Main_form_js.chronic_diseases.value;
-  All_Card_js.appendChild(paragraph_card_hospital_js);
   All_Card_js.appendChild(img);
+  All_Card_js.appendChild(paragraph_card_hospital_js);
 
   let user_p = new array_Form(
     FullName_js,
