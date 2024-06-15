@@ -82,20 +82,33 @@
     <!-- Form -->
     <div class="div_form">
       <form id="Main_form" action="">
-        <label for="Full_name">Full name :</label><br />
-        <input type="text" name="FullName" id="Full_name" /><br /><br />
+        <label for="Full_name">Username :</label><br />
+        <input type="text" name="FullName" id="Full_name" required />
+        <p id="FullName_id"></p>
+        <label for="Email">Email :</label><br />
+        <input type="text" id="Email" name="Email" />
+        <p id="Email_id"></p>
         <label for="Passward">Passward :</label><br />
-        <input type="password" name="Passward" id="Passward" /><br /><br />
+        <input type="password" name="Passward" id="Passward" /><br />
+        <div id="Passward_p_div">
+          <li id="characters_Passward_p">More than 8 characters</li>
+          <li id="Capital_Passward_p">At least one capital letter</li>
+          <li id="Number_Passward_p">At least one number</li>
+          <li id="Special_Characters_p">special characters : @ $ ! % * ? &</li>
+        </div>
+
         <label for="Date_of_birth">Date of birth :</label><br />
-        <input
-          type="date"
-          name="Date_of_birth"
-          id="Date_of_birth"
-        /><br /><br />
-        <label for="gender">Gender :</label><br />
-        <input type="text" name="gender" id="gender" /><br /><br />
+        <input type="text" name="Date_of_birth" id="Date_of_birth" />
+        <p id="Date_of_birth_id"></p>
+
+        <label for="gender">Gender :</label>
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="Male" value="Male" required />
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female" value="Female" /><br />
         <label for="phone_number">Phone Number :</label><br />
-        <input type="tel" name="phone_number" id="phone_number" /><br /><br />
+        <input type="tel" name="phone_number" id="phone_number" />
+        <p id="phone_number_id"></p>
 
         <label for="Chronic_diseases">Chronic diseases</label>
 
@@ -106,8 +119,9 @@
           <option value="Cancer">Cancer</option>
           <option value="No">No</option>
         </select>
-        <br /><br /><br />
+        <br /><br />
         <input type="submit" id="submit" />
+        <p id="Emmail_id"></p>
       </form>
     </div>
     <div id="card"></div>
